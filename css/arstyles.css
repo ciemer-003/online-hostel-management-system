@@ -1,0 +1,63 @@
+.arlinks {
+    list-style-type: none;
+    background-color:midnightblue;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: right;
+
+}
+nav li {
+    float: right;
+}
+nav li a {
+    padding: 15px 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+nav li a:hover{
+    background-color: white;
+}
+
+.artexts{
+    text-align: center;
+font: bolder;
+    color: midnightblue;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+nav , section{
+    margin: 3px;
+    padding: 2px;
+}
+
+
+
+
+.flexbox{
+    display: flex;
+}
+
+.flex-contain{
+    display: flex;
+}
+
+.flex-contain > div {
+    margin: 3px;
+    padding: 3px;
+
+}
+
+
+
+.flexbox >div{
+    margin: 2px;
+    padding: 2px;
+}
+
